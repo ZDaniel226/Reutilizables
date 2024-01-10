@@ -1,0 +1,12 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Colores</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <app-color-list *ngFor="let color of colores" [color]="color"></app-color-list>
+  </ion-list>
+  <ion-button expand="block" size="large" routerLink="/home">Regresar <ion-icon name="exit-outline"></ion-icon></ion-button>
+</ion-content>

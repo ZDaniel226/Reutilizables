@@ -1,20 +1,16 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
+
+  <app-nav-bar titulo="MENU"></app-nav-bar>
+
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-button expand="block" size="large" routerLink="/ejercicio1">Ejercicio 1 <ion-icon name="document-outline"></ion-icon></ion-button> 
+  <ion-button expand="block" size="large" routerLink="/blank">Ejercicio 2  <ion-icon name="document-outline"></ion-icon></ion-button> 
+  <ion-item>
+    <ion-thumbnail slot="start" >
+      <img alt="Horizonte" src="https://i.pinimg.com/originals/22/29/8b/22298bf3c7b6fa6b26254d6ed81b00ca.jpg" />
+    </ion-thumbnail>
+    <ion-label>Ella era tan delicada e inteligente, yo era tan "hola mundo"</ion-label>
+  </ion-item>
 </ion-content>
